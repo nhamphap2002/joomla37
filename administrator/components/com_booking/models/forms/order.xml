@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+        <field name="ordering"/>
+        <field name="state" default="1" type="list" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="inputbox" size="1">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="2">JARCHIVED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+        <field name="checked_out" type="hidden" filter="unset"/>
+        <field name="checked_out_time" default="0000-00-00 00:00:00" type="hidden" filter="unset"/>
+        <field name="created_by" type="createdby" default="0" label="COM_BOOKING_FORM_LBL_ORDER_CREATED_BY" description="COM_BOOKING_FORM_DESC_ORDER_CREATED_BY" hidden="true" hint="COM_BOOKING_FORM_LBL_ORDER_CREATED_BY"/>
+        <field name="modified_by" type="modifiedby" default="0" label="COM_BOOKING_FORM_LBL_ORDER_MODIFIED_BY" description="COM_BOOKING_FORM_DESC_ORDER_MODIFIED_BY" hidden="true" hint="COM_BOOKING_FORM_LBL_ORDER_MODIFIED_BY"/>
+        <field name="start_date" type="calendar" class="inputbox" timeformat="12" filter="server_utc" showtime="false" singleheader="false" todaybutton="false" weeknumbers="false" filltable="false" required="true" label="COM_BOOKING_FORM_LBL_ORDER_START_DATE" description="COM_BOOKING_FORM_DESC_ORDER_START_DATE" hint="COM_BOOKING_FORM_LBL_ORDER_START_DATE"/>
+        <field name="end_date" type="calendar" class="inputbox" timeformat="12" filter="server_utc" showtime="false" singleheader="false" todaybutton="false" weeknumbers="false" filltable="false" required="true" label="COM_BOOKING_FORM_LBL_ORDER_END_DATE" description="COM_BOOKING_FORM_DESC_ORDER_END_DATE" hint="COM_BOOKING_FORM_LBL_ORDER_END_DATE"/>
+        <field name="number_room" 
+               first="1" last="10" step="1"
+               type="integer" label="COM_BOOKING_FORM_LBL_ORDER_NUMBER_ROOM" description="COM_BOOKING_FORM_DESC_ORDER_NUMBER_ROOM" hint="COM_BOOKING_FORM_LBL_ORDER_NUMBER_ROOM"/>
+        <field name="number_persons"
+               first="1" last="10" step="1"
+               type="integer" class="inputbox" timeformat="12" filter="server_utc" showtime="false" singleheader="false" todaybutton="false" weeknumbers="false" filltable="false" label="COM_BOOKING_FORM_LBL_ORDER_NUMBER_PERSONS" description="COM_BOOKING_FORM_DESC_ORDER_NUMBER_PERSONS" hint="COM_BOOKING_FORM_LBL_ORDER_NUMBER_PERSONS"/>
+        <field name="number_children"
+               first="1" last="10" step="1"
+               type="integer" label="COM_BOOKING_FORM_LBL_ORDER_NUMBER_CHILDREN" description="COM_BOOKING_FORM_DESC_ORDER_NUMBER_CHILDREN" hint="COM_BOOKING_FORM_LBL_ORDER_NUMBER_CHILDREN"/>
+        <field name="order_note" type="textarea" label="COM_BOOKING_FORM_LBL_ORDER_ORDER_NOTE" description="COM_BOOKING_FORM_DESC_ORDER_ORDER_NOTE" hint="COM_BOOKING_FORM_LBL_ORDER_ORDER_NOTE"/>
+        <field name="name_customer" type="text" required="true" label="COM_BOOKING_FORM_LBL_ORDER_NAME_CUSTOMER" description="COM_BOOKING_FORM_DESC_ORDER_NAME_CUSTOMER" hint="COM_BOOKING_FORM_LBL_ORDER_NAME_CUSTOMER"/>
+        <field name="phome" type="text" filter="safehtml" required="true" label="COM_BOOKING_FORM_LBL_ORDER_PHOME" description="COM_BOOKING_FORM_DESC_ORDER_PHOME" hint="COM_BOOKING_FORM_LBL_ORDER_PHOME"/>
+        <field name="email" type="email" validate="email" required="true" label="COM_BOOKING_FORM_LBL_ORDER_EMAIL" description="COM_BOOKING_FORM_DESC_ORDER_EMAIL" hint="COM_BOOKING_FORM_LBL_ORDER_EMAIL"/>
+        <field name="idroom" 
+               type="sql" 
+               query="SELECT id AS idroom, room_name as value FROM #__booking" 
+               key_field="idroom"
+               value_field="value" 
+               required="true" 
+               label="COM_BOOKING_FORM_LBL_ORDER_IDROOM" 
+               description="COM_BOOKING_FORM_DESC_ORDER_IDROOM"
+               hint="COM_BOOKING_FORM_LBL_ORDER_IDROOM"/>
+        <field name="total" label="COM_BOOKING_FORM_LBL_ORDER_TOTAL" description="COM_BOOKING_FORM_DESC_ORDER_TOTAL" hint="COM_BOOKING_FORM_LBL_ORDER_TOTAL"/>
+        <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+    </fieldset>
+</form>

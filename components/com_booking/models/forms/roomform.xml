@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="ordering"/>
+    <field name="state" default="1" type="list" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="inputbox" size="1">
+      <option value="1">JPUBLISHED</option>
+      <option value="0">JUNPUBLISHED</option>
+      <option value="2">JARCHIVED</option>
+      <option value="-2">JTRASHED</option>
+    </field>
+    <field name="checked_out" type="hidden" filter="unset"/>
+    <field name="checked_out_time" default="0000-00-00 00:00:00" type="hidden" filter="unset"/>
+    <field name="image_room" type="text" filter="safehtml" required="true" label="COM_BOOKING_FORM_LBL_ROOM_IMAGE_ROOM" description="COM_BOOKING_FORM_DESC_ROOM_IMAGE_ROOM" hint="COM_BOOKING_FORM_LBL_ROOM_IMAGE_ROOM"/>
+    <field name="room_name" type="text" filter="safehtml" required="true" label="COM_BOOKING_FORM_LBL_ROOM_ROOM_NAME" description="COM_BOOKING_FORM_DESC_ROOM_ROOM_NAME" hint="COM_BOOKING_FORM_LBL_ROOM_ROOM_NAME"/>
+    <field name="number_room" required="true" label="COM_BOOKING_FORM_LBL_ROOM_NUMBER_ROOM" description="COM_BOOKING_FORM_DESC_ROOM_NUMBER_ROOM" hint="COM_BOOKING_FORM_LBL_ROOM_NUMBER_ROOM"/>
+    <field name="desc" type="editor" buttons="true" class="inputbox" filter="safehtml" label="COM_BOOKING_FORM_LBL_ROOM_DESC" description="COM_BOOKING_FORM_DESC_ROOM_DESC" hint="COM_BOOKING_FORM_LBL_ROOM_DESC"/>
+    <field name="price" label="COM_BOOKING_FORM_LBL_ROOM_PRICE" description="COM_BOOKING_FORM_DESC_ROOM_PRICE" hint="COM_BOOKING_FORM_LBL_ROOM_PRICE"/>
+    <field name="area" label="COM_BOOKING_FORM_LBL_ROOM_AREA" description="COM_BOOKING_FORM_DESC_ROOM_AREA" hint="COM_BOOKING_FORM_LBL_ROOM_AREA"/>
+    <field name="beds" type="editor" buttons="true" class="inputbox" filter="safehtml" label="COM_BOOKING_FORM_LBL_ROOM_BEDS" description="COM_BOOKING_FORM_DESC_ROOM_BEDS" hint="COM_BOOKING_FORM_LBL_ROOM_BEDS"/>
+    <field name="is_extra_bed" type="checkbox" label="COM_BOOKING_FORM_LBL_ROOM_IS_EXTRA_BED" description="COM_BOOKING_FORM_DESC_ROOM_IS_EXTRA_BED" hint="COM_BOOKING_FORM_LBL_ROOM_IS_EXTRA_BED"/>
+    <field name="utilities" type="editor" buttons="true" class="inputbox" filter="safehtml" label="COM_BOOKING_FORM_LBL_ROOM_UTILITIES" description="COM_BOOKING_FORM_DESC_ROOM_UTILITIES" hint="COM_BOOKING_FORM_LBL_ROOM_UTILITIES"/>
+    <field name="language" type="language" filter="safehtml" label="COM_BOOKING_FORM_LBL_ROOM_LANGUAGE" description="COM_BOOKING_FORM_DESC_ROOM_LANGUAGE" hint="COM_BOOKING_FORM_LBL_ROOM_LANGUAGE"/>
+    <field name="alias" type="text" filter="safehtml" label="COM_BOOKING_FORM_LBL_ROOM_ALIAS" description="COM_BOOKING_FORM_DESC_ROOM_ALIAS" hint="COM_BOOKING_FORM_LBL_ROOM_ALIAS"/>
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>

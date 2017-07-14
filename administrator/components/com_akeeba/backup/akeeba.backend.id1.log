@@ -1,0 +1,965 @@
+DEBUG   |170714 16:00:51|*** Batching successive steps (nesting level 1)
+DEBUG   |170714 16:00:51|====== Starting Step number 1 ======
+DEBUG   |170714 16:00:51|Kettenrad :: Switching domains
+DEBUG   |170714 16:00:51|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |170714 16:00:51|Switching to domain init, class Init
+DEBUG   |170714 16:00:51|Akeeba\Engine\Core\Domain\Init :: New instance
+DEBUG   |170714 16:00:51|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:51|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:51|Kettenrad :: Break flag status: YES
+DEBUG   |170714 16:00:51|----- Finished operation 1 ------
+DEBUG   |170714 16:00:51|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |170714 16:00:51|====== Finished Step number 1 ======
+DEBUG   |170714 16:00:51|Kettenrad :: Setting the break flag between domains
+DEBUG   |170714 16:00:51|*** Engine steps batching: Break flag detected.
+DEBUG   |170714 16:00:51|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:51|====== Starting Step number 2 ======
+DEBUG   |170714 16:00:51|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:51|--------------------------------------------------------------------------------
+INFO    |170714 16:00:51|Akeeba Backup 5.4.0 (2017-05-18)
+INFO    |170714 16:00:51|Got backup?
+INFO    |170714 16:00:51|--------------------------------------------------------------------------------
+INFO    |170714 16:00:51|--- System Information ---
+INFO    |170714 16:00:51|PHP Version        :7.1.4
+INFO    |170714 16:00:51|PHP OS             :WINNT
+INFO    |170714 16:00:51|PHP SAPI           :apache2handler
+INFO    |170714 16:00:51|OS Version         :Windows NT
+INFO    |170714 16:00:51|DB Version         :5.5.5-10.1.22-MariaDB
+INFO    |170714 16:00:51|Web Server         :Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.4
+INFO    |170714 16:00:51|Joomla! version    :3.7.3
+INFO    |170714 16:00:51|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+INFO    |170714 16:00:51|Safe mode          :
+INFO    |170714 16:00:51|Display errors     :
+INFO    |170714 16:00:51|Error reporting    :E_ERROR | E_WARNING | E_PARSE | E_NOTICE | E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_COMPILE_WARNING | E_USER_ERROR | E_USER_WARNING | E_USER_NOTICE
+INFO    |170714 16:00:51|Error display      :off
+INFO    |170714 16:00:51|Disabled functions :
+INFO    |170714 16:00:51|open_basedir restr.:
+INFO    |170714 16:00:51|Max. exec. time    :0
+INFO    |170714 16:00:51|Memory limit       :1024M
+INFO    |170714 16:00:51|Current mem. usage :9573416
+INFO    |170714 16:00:51|GZIP Compression   : available (good)
+INFO    |170714 16:00:51|JPATH_BASE         :<root>\administrator
+INFO    |170714 16:00:51|JPATH_SITE         :<root>
+INFO    |170714 16:00:51|JPATH_ROOT         :<root>
+INFO    |170714 16:00:51|JPATH_CACHE        :<root>\administrator\cache
+INFO    |170714 16:00:51|Computed root      :<root>
+INFO    |170714 16:00:51|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |170714 16:00:51|Part size (bytes)  :2147352576
+INFO    |170714 16:00:51|--------------------------------------------------------------------------------
+INFO    |170714 16:00:51|Loaded profile #1
+DEBUG   |170714 16:00:51|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |170714 16:00:51|Expanded template name: site-localhost-20170714-140051
+DEBUG   |170714 16:00:51|Backup type is now set to 'dbonly'
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 1 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 2 ------
+DEBUG   |170714 16:00:52|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |170714 16:00:52|Kettenrad :: Domain 'init' has finished.
+DEBUG   |170714 16:00:52|====== Finished Step number 2 ======
+DEBUG   |170714 16:00:52|Kettenrad :: Setting the break flag between domains
+DEBUG   |170714 16:00:52|*** Engine steps batching: Break flag detected.
+DEBUG   |170714 16:00:52|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:52|No need to sleep; execution time: 93.547105789185 msec; min. exec. time: 0 msec
+DEBUG   |170714 16:00:52|Saving Kettenrad instance backend
+DEBUG   |170714 16:00:52|Kettenrad :: Attempting to load from database (backend) [backend.id1]
+DEBUG   |170714 16:00:52| -- Loaded stored Akeeba Factory (backend) [backend.id1]
+DEBUG   |170714 16:00:52|====== Starting Step number 3 ======
+DEBUG   |170714 16:00:52|Kettenrad :: Switching domains
+DEBUG   |170714 16:00:52|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |170714 16:00:52|Switching to domain PackDB, class Db
+DEBUG   |170714 16:00:52|Akeeba\Engine\Core\Domain\Db :: New instance
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Akeeba\Engine\Core\Domain\Db :: Preparing instance
+DEBUG   |170714 16:00:52|Akeeba\Engine\Core\Domain\Db :: Adding only main database
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: YES
+DEBUG   |170714 16:00:52|----- Finished operation 1 ------
+DEBUG   |170714 16:00:52|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Db
+DEBUG   |170714 16:00:52|====== Finished Step number 3 ======
+DEBUG   |170714 16:00:52|Kettenrad :: Setting the break flag between domains
+DEBUG   |170714 16:00:52|*** Engine steps batching: Break flag detected.
+DEBUG   |170714 16:00:52|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:52|No need to sleep; execution time: 7.6961517333984 msec; min. exec. time: 0 msec
+DEBUG   |170714 16:00:52|Saving Kettenrad instance backend
+DEBUG   |170714 16:00:52|Kettenrad :: Attempting to load from database (backend) [backend.id1]
+DEBUG   |170714 16:00:52| -- Loaded stored Akeeba Factory (backend) [backend.id1]
+DEBUG   |170714 16:00:52|====== Starting Step number 4 ======
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Akeeba\Engine\Core\Domain\Db :: Iterating next database
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native :: New instance
+DEBUG   |170714 16:00:52|Akeeba\Engine\Core\Domain\Db :: Now backing up [SITEDB] (jl_37)
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native :: Processing parameters
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native :: Instanciating new native database dump engine \Akeeba\Engine\Dump\Native\Mysql
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: New instance
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Base :: Processing parameters
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Finding tables to include in the backup set
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_ak_profiles (internal name #__ak_profiles)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_ak_stats (internal name #__ak_stats)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_ak_storage (internal name #__ak_storage)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_akeeba_common (internal name #__akeeba_common)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_assets (internal name #__assets)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_associations (internal name #__associations)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_banner_clients (internal name #__banner_clients)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_banner_tracks (internal name #__banner_tracks)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_banners (internal name #__banners)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_booking (internal name #__booking)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_booking_order (internal name #__booking_order)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_categories (internal name #__categories)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_contact_details (internal name #__contact_details)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_content (internal name #__content)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_content_frontpage (internal name #__content_frontpage)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_content_rating (internal name #__content_rating)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_content_types (internal name #__content_types)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_contentitem_tag_map (internal name #__contentitem_tag_map)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_core_log_searches (internal name #__core_log_searches)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_extensions (internal name #__extensions)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_falang_content (internal name #__falang_content)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_falang_tableinfo (internal name #__falang_tableinfo)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_fields (internal name #__fields)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_fields_categories (internal name #__fields_categories)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_fields_groups (internal name #__fields_groups)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_fields_values (internal name #__fields_values)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_filters (internal name #__finder_filters)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links (internal name #__finder_links)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms0 (internal name #__finder_links_terms0)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms1 (internal name #__finder_links_terms1)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms2 (internal name #__finder_links_terms2)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms3 (internal name #__finder_links_terms3)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms4 (internal name #__finder_links_terms4)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms5 (internal name #__finder_links_terms5)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms6 (internal name #__finder_links_terms6)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms7 (internal name #__finder_links_terms7)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms8 (internal name #__finder_links_terms8)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_terms9 (internal name #__finder_links_terms9)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_termsa (internal name #__finder_links_termsa)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_termsb (internal name #__finder_links_termsb)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_termsc (internal name #__finder_links_termsc)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_termsd (internal name #__finder_links_termsd)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_termse (internal name #__finder_links_termse)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_links_termsf (internal name #__finder_links_termsf)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_taxonomy (internal name #__finder_taxonomy)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_taxonomy_map (internal name #__finder_taxonomy_map)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_terms (internal name #__finder_terms)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_terms_common (internal name #__finder_terms_common)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_tokens (internal name #__finder_tokens)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_tokens_aggregate (internal name #__finder_tokens_aggregate)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_finder_types (internal name #__finder_types)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_languages (internal name #__languages)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_menu (internal name #__menu)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_menu_types (internal name #__menu_types)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_messages (internal name #__messages)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_messages_cfg (internal name #__messages_cfg)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_modules (internal name #__modules)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_modules_menu (internal name #__modules_menu)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_newsfeeds (internal name #__newsfeeds)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_overrider (internal name #__overrider)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_postinstall_messages (internal name #__postinstall_messages)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_redirect_links (internal name #__redirect_links)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_schemas (internal name #__schemas)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_session (internal name #__session)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_tags (internal name #__tags)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_template_styles (internal name #__template_styles)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_ucm_base (internal name #__ucm_base)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_ucm_content (internal name #__ucm_content)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_ucm_history (internal name #__ucm_history)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_update_sites (internal name #__update_sites)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_update_sites_extensions (internal name #__update_sites_extensions)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_updates (internal name #__updates)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_user_keys (internal name #__user_keys)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_user_notes (internal name #__user_notes)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_user_profiles (internal name #__user_profiles)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_user_usergroup_map (internal name #__user_usergroup_map)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_usergroups (internal name #__usergroups)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_users (internal name #__users)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_utf8_conversion (internal name #__utf8_conversion)
+INFO    |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Adding odrz4_viewlevels (internal name #__viewlevels)
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: NOT listing stored PROCEDUREs, FUNCTIONs and TRIGGERs (you told me not to)
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Starting CREATE TABLE and dependency scanning
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Got database connection
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Got SHOW TABLES
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Got table list
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Native\Mysql :: Processed dependencies
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Base :: Getting temporary file
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Base :: Temporary file is <root>/administrator/components/com_akeeba/backup/85a4d29b.sql
+DEBUG   |170714 16:00:52|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/85a4d29b.sql
+DEBUG   |170714 16:00:52|AkeebaDomainDBBackup :: SQL file location in archive is <root>/administrator/components/com_akeeba/backup/site-localhost-20170714-140051.sql
+DEBUG   |170714 16:00:52|AkeebaDomainDBBackup :: Deleting leftover files, if any
+DEBUG   |170714 16:00:52|Akeeba\Engine\Dump\Base :: Initializing algorithm for first run
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 1 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Rows on #__ak_profiles : 1
+DEBUG   |170714 16:00:52|Writing data dump preamble for #__ak_profiles
+INFO    |170714 16:00:52|Beginning dump of #__ak_profiles
+DEBUG   |170714 16:00:52|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:52|Done dumping #__ak_profiles
+DEBUG   |170714 16:00:52|Writing data dump epilogue for #__ak_profiles
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 2 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Rows on #__ak_stats : 1
+DEBUG   |170714 16:00:52|Writing data dump preamble for #__ak_stats
+INFO    |170714 16:00:52|Beginning dump of #__ak_stats
+DEBUG   |170714 16:00:52|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:52|Done dumping #__ak_stats
+DEBUG   |170714 16:00:52|Writing data dump epilogue for #__ak_stats
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 3 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Rows on #__ak_storage : 0
+DEBUG   |170714 16:00:52|Writing data dump preamble for #__ak_storage
+DEBUG   |170714 16:00:52|Done dumping #__ak_storage
+DEBUG   |170714 16:00:52|Writing data dump epilogue for #__ak_storage
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 4 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Rows on #__akeeba_common : 4
+DEBUG   |170714 16:00:52|Writing data dump preamble for #__akeeba_common
+INFO    |170714 16:00:52|Beginning dump of #__akeeba_common
+DEBUG   |170714 16:00:52|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:52|Done dumping #__akeeba_common
+DEBUG   |170714 16:00:52|Writing data dump epilogue for #__akeeba_common
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 5 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Rows on #__assets : 165
+DEBUG   |170714 16:00:52|Writing data dump preamble for #__assets
+INFO    |170714 16:00:52|Beginning dump of #__assets
+DEBUG   |170714 16:00:52|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:52|Done dumping #__assets
+DEBUG   |170714 16:00:52|Writing data dump epilogue for #__assets
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 6 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:52|Rows on #__associations : 0
+DEBUG   |170714 16:00:52|Writing data dump preamble for #__associations
+DEBUG   |170714 16:00:52|Done dumping #__associations
+DEBUG   |170714 16:00:52|Writing data dump epilogue for #__associations
+DEBUG   |170714 16:00:52|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:52|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:52|----- Finished operation 7 ------
+DEBUG   |170714 16:00:52|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__banner_clients : 3
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__banner_clients
+INFO    |170714 16:00:53|Beginning dump of #__banner_clients
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Done dumping #__banner_clients
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__banner_clients
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 8 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__banner_tracks : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__banner_tracks
+DEBUG   |170714 16:00:53|Done dumping #__banner_tracks
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__banner_tracks
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 9 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__banners : 3
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__banners
+INFO    |170714 16:00:53|Beginning dump of #__banners
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Done dumping #__banners
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__banners
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 10 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__booking : 3
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__booking
+INFO    |170714 16:00:53|Beginning dump of #__booking
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Done dumping #__booking
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__booking
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 11 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__booking_order : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__booking_order
+DEBUG   |170714 16:00:53|Done dumping #__booking_order
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__booking_order
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 12 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__categories : 62
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__categories
+INFO    |170714 16:00:53|Beginning dump of #__categories
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Done dumping #__categories
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__categories
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 13 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__contact_details : 8
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__contact_details
+INFO    |170714 16:00:53|Beginning dump of #__contact_details
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Done dumping #__contact_details
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__contact_details
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 14 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__content : 68
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__content
+INFO    |170714 16:00:53|Beginning dump of #__content
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Writing 202671 bytes to the dump file
+DEBUG   |170714 16:00:53|Done dumping #__content
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__content
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 15 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__content_frontpage : 4
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__content_frontpage
+INFO    |170714 16:00:53|Beginning dump of #__content_frontpage
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Done dumping #__content_frontpage
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__content_frontpage
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 16 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__content_rating : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__content_rating
+DEBUG   |170714 16:00:53|Done dumping #__content_rating
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__content_rating
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 17 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__content_types : 13
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__content_types
+INFO    |170714 16:00:53|Beginning dump of #__content_types
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Done dumping #__content_types
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__content_types
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 18 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__contentitem_tag_map : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__contentitem_tag_map
+DEBUG   |170714 16:00:53|Done dumping #__contentitem_tag_map
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__contentitem_tag_map
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 19 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__core_log_searches : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__core_log_searches
+DEBUG   |170714 16:00:53|Done dumping #__core_log_searches
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__core_log_searches
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 20 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__extensions : 174
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__extensions
+INFO    |170714 16:00:53|Beginning dump of #__extensions
+DEBUG   |170714 16:00:53|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:53|Writing 135979 bytes to the dump file
+DEBUG   |170714 16:00:53|Done dumping #__extensions
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__extensions
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 21 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__falang_content : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__falang_content
+DEBUG   |170714 16:00:53|Done dumping #__falang_content
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__falang_content
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 22 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__falang_tableinfo : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__falang_tableinfo
+DEBUG   |170714 16:00:53|Done dumping #__falang_tableinfo
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__falang_tableinfo
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 23 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__fields : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__fields
+DEBUG   |170714 16:00:53|Done dumping #__fields
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__fields
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 24 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__fields_categories : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__fields_categories
+DEBUG   |170714 16:00:53|Done dumping #__fields_categories
+DEBUG   |170714 16:00:53|Writing data dump epilogue for #__fields_categories
+DEBUG   |170714 16:00:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:53|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:53|----- Finished operation 25 ------
+DEBUG   |170714 16:00:53|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:53|Rows on #__fields_groups : 0
+DEBUG   |170714 16:00:53|Writing data dump preamble for #__fields_groups
+DEBUG   |170714 16:00:54|Done dumping #__fields_groups
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__fields_groups
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 26 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__fields_values : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__fields_values
+DEBUG   |170714 16:00:54|Done dumping #__fields_values
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__fields_values
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 27 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__finder_filters : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__finder_filters
+DEBUG   |170714 16:00:54|Done dumping #__finder_filters
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__finder_filters
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 28 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links
+DEBUG   |170714 16:00:54|Done dumping #__finder_links
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 29 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms0
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms0
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 30 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms1
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms1
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 31 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms2
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms2
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 32 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms3
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms3
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 33 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms4
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms4
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 34 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms5
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms5
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 35 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms6
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms6
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 36 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms7
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms7
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 37 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms8
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms8
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 38 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_terms9
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_terms9
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 39 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_termsa
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_termsa
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 40 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_termsb
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_termsb
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 41 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_termsc
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_termsc
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 42 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_termsd
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_termsd
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 43 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_termse
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_termse
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 44 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_links_termsf
+DEBUG   |170714 16:00:54|Done dumping #__finder_links_termsf
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 45 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_taxonomy
+DEBUG   |170714 16:00:54|Done dumping #__finder_taxonomy
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 46 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_taxonomy_map
+DEBUG   |170714 16:00:54|Done dumping #__finder_taxonomy_map
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 47 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_terms
+DEBUG   |170714 16:00:54|Done dumping #__finder_terms
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 48 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__finder_terms_common : 110
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__finder_terms_common
+INFO    |170714 16:00:54|Beginning dump of #__finder_terms_common
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__finder_terms_common
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__finder_terms_common
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 49 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_tokens
+DEBUG   |170714 16:00:54|Done dumping #__finder_tokens
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 50 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__finder_tokens_aggregate
+DEBUG   |170714 16:00:54|Done dumping #__finder_tokens_aggregate
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 51 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__finder_types : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__finder_types
+DEBUG   |170714 16:00:54|Done dumping #__finder_types
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__finder_types
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 52 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__languages : 1
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__languages
+INFO    |170714 16:00:54|Beginning dump of #__languages
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__languages
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__languages
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 53 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__menu : 139
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__menu
+INFO    |170714 16:00:54|Beginning dump of #__menu
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Writing 146286 bytes to the dump file
+DEBUG   |170714 16:00:54|Done dumping #__menu
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__menu
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 54 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__menu_types : 6
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__menu_types
+INFO    |170714 16:00:54|Beginning dump of #__menu_types
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__menu_types
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__menu_types
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 55 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__messages : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__messages
+DEBUG   |170714 16:00:54|Done dumping #__messages
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__messages
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 56 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__messages_cfg : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__messages_cfg
+DEBUG   |170714 16:00:54|Done dumping #__messages_cfg
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__messages_cfg
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 57 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__modules : 60
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__modules
+INFO    |170714 16:00:54|Beginning dump of #__modules
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__modules
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__modules
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 58 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__modules_menu : 191
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__modules_menu
+INFO    |170714 16:00:54|Beginning dump of #__modules_menu
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__modules_menu
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__modules_menu
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 59 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__newsfeeds : 3
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__newsfeeds
+INFO    |170714 16:00:54|Beginning dump of #__newsfeeds
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__newsfeeds
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__newsfeeds
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 60 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__overrider : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__overrider
+DEBUG   |170714 16:00:54|Done dumping #__overrider
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__overrider
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 61 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__postinstall_messages : 6
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__postinstall_messages
+INFO    |170714 16:00:54|Beginning dump of #__postinstall_messages
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__postinstall_messages
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__postinstall_messages
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 62 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__redirect_links : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__redirect_links
+DEBUG   |170714 16:00:54|Done dumping #__redirect_links
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__redirect_links
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 63 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__schemas : 2
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__schemas
+INFO    |170714 16:00:54|Beginning dump of #__schemas
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__schemas
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__schemas
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 64 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+INFO    |170714 16:00:54|Skipping dumping data of #__session
+DEBUG   |170714 16:00:54|Done dumping #__session
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 65 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__tags : 1
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__tags
+INFO    |170714 16:00:54|Beginning dump of #__tags
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__tags
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__tags
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 66 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__template_styles : 5
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__template_styles
+INFO    |170714 16:00:54|Beginning dump of #__template_styles
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__template_styles
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__template_styles
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 67 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__ucm_base : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__ucm_base
+DEBUG   |170714 16:00:54|Done dumping #__ucm_base
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__ucm_base
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 68 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__ucm_content : 0
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__ucm_content
+DEBUG   |170714 16:00:54|Done dumping #__ucm_content
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__ucm_content
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 69 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__ucm_history : 2
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__ucm_history
+INFO    |170714 16:00:54|Beginning dump of #__ucm_history
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__ucm_history
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__ucm_history
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 70 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__update_sites : 7
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__update_sites
+INFO    |170714 16:00:54|Beginning dump of #__update_sites
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__update_sites
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__update_sites
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 71 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__update_sites_extensions : 7
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__update_sites_extensions
+INFO    |170714 16:00:54|Beginning dump of #__update_sites_extensions
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__update_sites_extensions
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__update_sites_extensions
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 72 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:54|Rows on #__updates : 51
+DEBUG   |170714 16:00:54|Writing data dump preamble for #__updates
+INFO    |170714 16:00:54|Beginning dump of #__updates
+DEBUG   |170714 16:00:54|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:54|Done dumping #__updates
+DEBUG   |170714 16:00:54|Writing data dump epilogue for #__updates
+DEBUG   |170714 16:00:54|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:54|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:54|----- Finished operation 73 ------
+DEBUG   |170714 16:00:54|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__user_keys : 0
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__user_keys
+DEBUG   |170714 16:00:55|Done dumping #__user_keys
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__user_keys
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 74 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__user_notes : 0
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__user_notes
+DEBUG   |170714 16:00:55|Done dumping #__user_notes
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__user_notes
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 75 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__user_profiles : 0
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__user_profiles
+DEBUG   |170714 16:00:55|Done dumping #__user_profiles
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__user_profiles
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 76 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__user_usergroup_map : 1
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__user_usergroup_map
+INFO    |170714 16:00:55|Beginning dump of #__user_usergroup_map
+DEBUG   |170714 16:00:55|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:55|Done dumping #__user_usergroup_map
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__user_usergroup_map
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 77 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__usergroups : 11
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__usergroups
+INFO    |170714 16:00:55|Beginning dump of #__usergroups
+DEBUG   |170714 16:00:55|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:55|Done dumping #__usergroups
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__usergroups
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 78 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__users : 1
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__users
+INFO    |170714 16:00:55|Beginning dump of #__users
+DEBUG   |170714 16:00:55|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:55|Done dumping #__users
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__users
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 79 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__utf8_conversion : 1
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__utf8_conversion
+INFO    |170714 16:00:55|Beginning dump of #__utf8_conversion
+DEBUG   |170714 16:00:55|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:55|Done dumping #__utf8_conversion
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__utf8_conversion
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 80 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Rows on #__viewlevels : 6
+DEBUG   |170714 16:00:55|Writing data dump preamble for #__viewlevels
+INFO    |170714 16:00:55|Beginning dump of #__viewlevels
+DEBUG   |170714 16:00:55|Up to 1000 records will be read at once.
+DEBUG   |170714 16:00:55|Done dumping #__viewlevels
+DEBUG   |170714 16:00:55|Writing data dump epilogue for #__viewlevels
+INFO    |170714 16:00:55|End of database detected; flushing the dump buffers...
+DEBUG   |170714 16:00:55|Writing 71454 bytes to the dump file
+INFO    |170714 16:00:55|Database has been successfully dumped to SQL file(s)
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 81 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Adding any extra SQL statements imposed by the filters
+DEBUG   |170714 16:00:55|Closing SQL dump file.
+DEBUG   |170714 16:00:55|Moving the SQL dump to its final location
+DEBUG   |170714 16:00:55|Removing temporary file of final SQL dump
+DEBUG   |170714 16:00:55|-- Removing temporary file 85a4d29b.sql
+DEBUG   |170714 16:00:55|-- Windows hack: chowning 85a4d29b.sql
+DEBUG   |170714 16:00:55|Akeeba\Engine\Core\Domain\Db :: No more databases left to iterate
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 82 ------
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Akeeba\Engine\Core\Domain\Db :: Skipping databases.ini
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:55|----- Finished operation 83 ------
+DEBUG   |170714 16:00:55|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Db
+DEBUG   |170714 16:00:55|Kettenrad :: Domain 'PackDB' has finished.
+DEBUG   |170714 16:00:55|====== Finished Step number 4 ======
+DEBUG   |170714 16:00:55|Kettenrad :: Setting the break flag between domains
+DEBUG   |170714 16:00:55|*** Engine steps batching: Break flag detected.
+DEBUG   |170714 16:00:55|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:55|No need to sleep; execution time: 2613.9209270477 msec; min. exec. time: 0 msec
+DEBUG   |170714 16:00:55|Saving Kettenrad instance backend
+DEBUG   |170714 16:00:55|Kettenrad :: Attempting to load from database (backend) [backend.id1]
+DEBUG   |170714 16:00:55| -- Loaded stored Akeeba Factory (backend) [backend.id1]
+DEBUG   |170714 16:00:55|====== Starting Step number 5 ======
+DEBUG   |170714 16:00:55|Kettenrad :: Switching domains
+DEBUG   |170714 16:00:55|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |170714 16:00:55|Switching to domain finale, class Finalization
+DEBUG   |170714 16:00:55|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:55|Finalization action queue: update_filesizes, update_statistics, remove_temp_files, test_extract, run_post_processing, kickstart_post_processing, apply_quotas, apply_remote_quotas, mail_administrators, update_statistics
+DEBUG   |170714 16:00:55|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:55|Kettenrad :: Break flag status: YES
+DEBUG   |170714 16:00:55|----- Finished operation 1 ------
+DEBUG   |170714 16:00:55|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Finalization
+DEBUG   |170714 16:00:55|Kettenrad :: More work required in domain 'finale'
+DEBUG   |170714 16:00:55|====== Finished Step number 5 ======
+DEBUG   |170714 16:00:55|Kettenrad :: Setting the break flag between domains
+DEBUG   |170714 16:00:55|*** Engine steps batching: Break flag detected.
+DEBUG   |170714 16:00:55|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:55|No need to sleep; execution time: 9.861946105957 msec; min. exec. time: 0 msec
+DEBUG   |170714 16:00:55|Saving Kettenrad instance backend
+DEBUG   |170714 16:00:56|Kettenrad :: Attempting to load from database (backend) [backend.id1]
+DEBUG   |170714 16:00:56| -- Loaded stored Akeeba Factory (backend) [backend.id1]
+DEBUG   |170714 16:00:56|====== Starting Step number 6 ======
+DEBUG   |170714 16:00:56|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method update_filesizes
+DEBUG   |170714 16:00:56|Updating statistics with file sizes
+DEBUG   |170714 16:00:56|Total size of backup archive (in bytes): 556390
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method update_statistics
+DEBUG   |170714 16:00:56|Updating statistics
+DEBUG   |170714 16:00:56|Removing any old records with site-localhost-20170714-140051.sql filename
+DEBUG   |170714 16:00:56|1 records found
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method remove_temp_files
+DEBUG   |170714 16:00:56|Removing temporary files
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running add-on method test_extract
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method run_post_processing
+DEBUG   |170714 16:00:56|Loading post-processing engine object (none)
+INFO    |170714 16:00:56|Initializing post-processing engine
+DEBUG   |170714 16:00:56|1 files to process found
+INFO    |170714 16:00:56|Beginning post processing file <root>/administrator/components/com_akeeba/backup\site-localhost-20170714-140051.sql
+INFO    |170714 16:00:56|Finished post-processing file <root>/administrator/components/com_akeeba/backup\site-localhost-20170714-140051.sql
+DEBUG   |170714 16:00:56|Not removing processed file <root>/administrator/components/com_akeeba/backup\site-localhost-20170714-140051.sql
+INFO    |170714 16:00:56|Post-processing has finished for all files
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method kickstart_post_processing
+INFO    |170714 16:00:56|Getting ready to upload Kickstart
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method apply_quotas
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method apply_remote_quotas
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method mail_administrators
+DEBUG   |170714 16:00:56|Akeeba\Engine\Core\Domain\Finalization::_run() Running built-in method update_statistics
+DEBUG   |170714 16:00:56|Updating statistics
+DEBUG   |170714 16:00:56|Removing any old records with site-localhost-20170714-140051.sql filename
+DEBUG   |170714 16:00:56|1 records found
+DEBUG   |170714 16:00:56|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:56|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:56|----- Finished operation 1 ------
+DEBUG   |170714 16:00:56|Kettenrad :: Ticking the domain object
+DEBUG   |170714 16:00:56|Kettenrad :: Domain object returned; propagating
+DEBUG   |170714 16:00:56|Kettenrad :: Break flag status: no
+DEBUG   |170714 16:00:56|----- Finished operation 2 ------
+DEBUG   |170714 16:00:56|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Finalization
+DEBUG   |170714 16:00:56|Kettenrad :: Domain 'finale' has finished.
+DEBUG   |170714 16:00:56|====== Finished Step number 6 ======
+DEBUG   |170714 16:00:56|Kettenrad :: Setting the break flag between domains
+DEBUG   |170714 16:00:56|*** Engine steps batching: Break flag detected.
+DEBUG   |170714 16:00:56|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:56|No need to sleep; execution time: 444.25296783447 msec; min. exec. time: 0 msec
+DEBUG   |170714 16:00:56|Saving Kettenrad instance backend
+DEBUG   |170714 16:00:57|Kettenrad :: Attempting to load from database (backend) [backend.id1]
+DEBUG   |170714 16:00:57| -- Loaded stored Akeeba Factory (backend) [backend.id1]
+DEBUG   |170714 16:00:57|====== Starting Step number 7 ======
+DEBUG   |170714 16:00:57|Kettenrad :: Switching domains
+DEBUG   |170714 16:00:57|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |170714 16:00:57|Kettenrad :: No more domains to process
+DEBUG   |170714 16:00:57|====== Finished Step number 7 ======
+DEBUG   |170714 16:00:57|*** Engine steps batching: Break flag detected.
+DEBUG   |170714 16:00:57|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:57|No need to sleep; execution time: 4.9340724945068 msec; min. exec. time: 0 msec
+DEBUG   |170714 16:00:57|Saving Kettenrad instance backend
+DEBUG   |170714 16:00:57|Kettenrad :: Attempting to load from database (backend) [backend.id1]
+DEBUG   |170714 16:00:57| -- Loaded stored Akeeba Factory (backend) [backend.id1]
+DEBUG   |170714 16:00:57|Kettenrad :: Just finished
+DEBUG   |170714 16:00:57|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |170714 16:00:57|No need to sleep; execution time: 4.8089027404785 msec; min. exec. time: 0 msec
